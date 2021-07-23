@@ -23,7 +23,6 @@ const ButtonContainer = styled(Flex)`
   }
   @media ${(p) => p.theme.breakpoints.sm} {
     width: 100%;
-    height: 32px;
   }
 `;
 

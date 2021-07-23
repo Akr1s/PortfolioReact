@@ -6,7 +6,7 @@ import BackgroundAnimation from "./BackgroundAnimation";
 
 function Welcome() {
   return (
-    <Section id="welcome">
+    <Section id="welcome" relative={true}>
       <SectionTitle main>
         Welcome To <br />
         My Personal Portfolio
