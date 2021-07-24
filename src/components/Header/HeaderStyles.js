@@ -47,6 +47,6 @@ export const NavBarLink = styled.a`
     cursor: pointer;
   }
   @media ${(p) => p.theme.breakpoints.extraSm} {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 `;
