@@ -10,8 +10,7 @@ function Technoligies() {
     <Section id="technologies">
       <SectionTitle>Technoligies</SectionTitle>
       <SectionText>
-        I've worked with a range a technologies in the web development world.
-        From Back-end To Design
+        At this point my main objective is to become a Frontend React Developer
       </SectionText>
       <TechnoligiesList>
         {technologiesList.map((category, index) => (
