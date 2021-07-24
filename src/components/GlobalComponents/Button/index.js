@@ -1,10 +1,10 @@
 import React from "react";
 import { ButtonContainer, ButtonLink } from "./ButtonStyles";
 
-function Button({ children }) {
+function Button({ children, href }) {
   return (
     <ButtonContainer>
-      <ButtonLink>{children}</ButtonLink>
+      <ButtonLink href={href}>{children}</ButtonLink>
     </ButtonContainer>
   );
 }

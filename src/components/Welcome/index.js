@@ -15,7 +15,7 @@ function Welcome() {
         The purpose of this page is to help me introduce myself to other
         developers.
       </SectionText>
-      <Button>Read More</Button>
+      <Button href="https://akr1s.github.io/portfolio/">Read More</Button>
       <BackgroundAnimation />
     </Section>
   );

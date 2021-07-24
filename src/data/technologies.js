@@ -11,6 +11,7 @@ const technologies = [
       "React",
       "Redux",
       "Styled-components",
+      "Git/Github",
     ],
   },
 ];
