@@ -87,5 +87,6 @@ export const SectionText = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+    text-align: justify;
   }
 `;
