@@ -1,8 +1,7 @@
-import React from "react";
 import styled from "styled-components";
-import { Flex } from "../GlobalComponents";
+import { Flex } from "..";
 
-const ButtonContainer = styled(Flex)`
+export const ButtonContainer = styled(Flex)`
   cursor: pointer;
   width: 262px;
   height: 64px;
@@ -26,7 +25,7 @@ const ButtonContainer = styled(Flex)`
   }
 `;
 
-const ButtonLink = styled.a`
+export const ButtonLink = styled.a`
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
@@ -39,13 +38,3 @@ const ButtonLink = styled.a`
     font-size: 14px;
   }
 `;
-
-function Button({ children }) {
-  return (
-    <ButtonContainer>
-      <ButtonLink>{children}</ButtonLink>
-    </ButtonContainer>
-  );
-}
-
-export default Button;

@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./SlickSlider.css";
-import timeline from "../../data/timeline";
-import SliderElement from "./SliderElement";
+import timeline from "../../../data/timeline";
+import SliderElement from "../SliderElements";
 
 let settings = {
   dots: true,

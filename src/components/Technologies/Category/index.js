@@ -1,15 +1,14 @@
 import React from "react";
 import {
-  CategoryItem,
   CategoryTechnology,
   CategoryTitle,
   TechnologiesContainer,
-} from "./TechnologiesStyles";
+} from "./CategoryStyles";
 
 function Category(props) {
   const { Icon, title, technologies } = props;
   return (
-    <CategoryItem>
+    <li>
       <CategoryTitle>
         <Icon style={{ marginRight: "10px" }} />
         {title}
@@ -19,7 +18,7 @@ function Category(props) {
           <CategoryTechnology key={index}>{technology}</CategoryTechnology>
         ))}
       </TechnologiesContainer>
-    </CategoryItem>
+    </li>
   );
 }
 

@@ -9,7 +9,7 @@ import {
   ProjectTitle,
   Separator,
   StackList,
-} from "./ProjectsStyles";
+} from "./ProjectItemStyles";
 
 function ProjectItem(props) {
   const { poster, title, description, codeLink, liveLink, stack } = props;
